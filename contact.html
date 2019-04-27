@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng"> 
+
+
+
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<meta charset = "utf-8"/>
+<meta name  = "author" content = "Michael Becker">
+<meta name = "keywords" content = "Carnegie Mellon University, CV">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name  = "descriptions" content = "Michael Becker Professional Website">
+<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
+<script type= "text/javascript" src = "js/jquery-3.3.1.min.js"> </script>
+<script src = "http://code.highcharts.com/highcharts.js"> </script>
+<script src = "http://code.highcharts.com/modules/exporting.js"> </script>
+<script type= "text/javascript" src = "js/scripts.js"> </script>
+<title> Contact </title>
+
+</head>
+
+
+<body>
+	<div id = "container">
+		<div id = "top_row">
+		<header>
+    <br>
+		<nav> 
+    <a href = "aventure.html"> Sales </a>
+    <a href = "about.html" > About </a>  
+    <a href = "locations.html" > Locations </a>  
+    <a href = "orderNow.html" > Order </a>
+    <a href = "specialEvents.html" > Special Events </a>
+	<a href  = "index.html"> Home </a>      
+    
+	</nav>
+
+	</header> 
+
+	
+    <img  id = 'Logo' src = "images/logo.png" alt = "Photo" width = 240 height = 320 />
+	</div>
+	
+	<div id = "content">
+	<h3> Contact </h3>
+    
+	<h4> Please use the below form to get in touch with us </h4> <br>
+    <div id = "container-graph"> </div>
+	<form onsubmit = "return validate()">
+	<fieldset>
+		<legend> Tell us more about yourself... </legend>
+		  <a> Name: <a class = 'req'> *Required </a> <br>
+		  <input typ="text" name="firstname" size="20" maxlength="250" required>
+		  <br> <br>
+          <a>Please provide your email address: </a> <a class = 'req'> *Required </a> <br> 
+		  <input type = "email" placeholder = "abc@dfg.com" size="25" required> <br> <br>
+          <a>Please provide your zip code: </a> <br>
+          <input id = 'zip' type = 'text' placeholder = 'Zip' maxlength="5" size="5"> <br> <br>
+	  </fieldset>
+	  <fieldset>
+		<legend> Your feedback matters </legend>
+		  <a>What questions, comments, or suggestions do you have for us?</a> <br>
+		  <textarea id ='mesg' name = "Text1" cols = "50" rows = "10" maxlength= "1000">
+		  </textarea>
+		  <br>
+	  </fieldset>
+	  <fieldset>
+		<legend> Subscription </legend>
+		  <a> Please Indicate if you would like to subscribe to prantl's mailing list: </a> <br>
+		  <input type = "checkbox" value = "answer"> Yes, I'm Interested! <br> <br>
+	</fieldset>
+	<fieldset>
+		<input type = "image" src = "images/submit.png" name = "submit" alt = "Submit">
+	</fieldset>
+	</form> 
+	</div>
+
+	<footer>
+	    <hr/>
+	    &#169;Prantl's Bakery 2018 <br/> 
+	    <a class = 'footLink' href = "contact.html" > Contact  </a>
+        <a class = 'footLink' href  = "index.html"> Home </a>  
+	    <a class = 'footLink' href = "about.html" > About </a>  
+	    <a class = 'footLink' href = "locations.html" > Locations </a>  
+        <a class = 'footLink' href = "orderNow.html" > Order Now </a>
+        <a class = 'footLink' href = "specialEvents.html" > Special Events   </a>
+        <br>
+        <div id = 'social'>
+		<a href = "https://www.facebook.com/PrantlsBakery/" target = "_blank"> <img src = "images/fb.png"></a>
+		<a href = "https://twitter.com/prantlsbakery?lang=en"target = "_blank"> <img src = "images/twitter.png"></a>
+        <a href = "https://www.instagram.com/prantls_bakery/"target = "_blank"> <img src = "images/insta.png"></a>
+        <a href = "http://triblive.com/local/westmoreland/13303966-74/prantls-bakery-burnt-almond-torte-named-states-best-by-food-network"target = "_blank"> <img src = "images/trib.jpg"></a>
+        
+        <div>
+	</footer>
+	</div>
+
+</body>
+</html>
