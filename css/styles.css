@@ -292,14 +292,14 @@ html {
 #containeri {
     max-width: 35%;
     height: auto;
-    margin: 1em 10em 10em 0em;
+    margin: 1% 10% 4.2% 0%;
     float:right;
 }
 
 #containerj {
     max-width: 35%;
     height: auto;
-    margin: 4em 10em 10em 0em;
+    margin: 0em 10% 7.2% 0%;
     float:right;
 }
 
@@ -307,7 +307,7 @@ html {
     float:right;
     max-width:50%;
     max-height:50%;
-    margin: -9% 0em 0em 0em
+    margin: -9% 0% 0% 0%
 }
 
 #vid_descrip {
